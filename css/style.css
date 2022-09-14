@@ -1,0 +1,290 @@
+/* * w cssie ozacz ze jest to stylowanie dla kazdego elemntu w pliku html  */
+*
+{
+    font-family: 'Rubik', sans-serif;
+}
+body
+{
+    margin: 0;
+    padding: 0; 
+    position: relative;
+}
+html
+{
+    height: 100%;
+}
+#tlo
+{
+    background: url(../Pliki/zdjecia/tlo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tlo2
+{
+    background: url(../Pliki/zdjecia/tlo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tlo3
+{
+    background: url(../Pliki/zdjecia/tlo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tlo4
+{
+    background: url(../Pliki/zdjecia/tlo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tlo5
+{
+    background: url(../Pliki/zdjecia/tlo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+header img
+{
+    width: 22%;
+    height: auto;
+    float: left;
+}
+header nav
+{
+    width: 78%;
+    text-align: center;
+    height: 30vh;
+    padding: 13vh 0;
+    float: left;
+}
+header nav a
+{
+    font-size: 4vh;
+    text-decoration: none;
+    padding: 10px 1.5vw;
+}
+header nav a:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+header nav a span
+{
+    color: white;
+    font-size: 4vh;
+}
+#tytulowy
+{   
+    width: 100%;
+    text-align: justify;
+    z-index: 3;
+}
+#tytulowy p
+{
+    margin: 0;
+    padding: 5% 20% 20% 20%;
+    font-size: 3vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 3px 3px 1px black;
+}
+#sociale
+{
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid #dbbb01;
+    padding: 2vh 0;
+}
+#sociale h2
+{
+    margin: 0;
+    font-size: 2rem;
+}
+#sociale span
+{
+    margin: 0 30px;
+}
+#sociale span a i
+{
+    font-size: 5em;
+    color: #dbbb01;
+    text-shadow: 3px 3px 2px black;
+}
+#sociale span a i:hover
+{
+    color: black;
+    text-shadow: none;
+}
+footer
+{
+    border: 1px solid #dbbb01;
+}
+
+#glowne
+{
+    width: 100%;
+}
+#siedziba
+{
+    width: 100%;
+    background: #0f52ba;
+    color: white;
+    padding-left: 25px;
+    display: flex;
+}
+#siedziba h2
+{
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 2.4rem;
+}
+#siedziba p{
+    margin: 0;
+    font-size: 1.9rem;
+}
+#siedziba #dane
+{
+    width: 35%;
+    float: left;
+    padding: 10% 0;
+}
+#siedziba #mapa
+{
+    width: 65%;
+    float: left;
+    padding: 3vh 0;
+}
+#kontaktowe
+{
+    width: 100%;
+    color: #dbbb01;
+    padding-left: 25px;
+    padding-top: 4vh;
+    min-height: 25vh;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 10vh;
+    text-align: center;
+}
+#kontaktowe h2
+{
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 2.4rem;
+}
+#kontaktowe p
+{
+    margin: 0;
+    font-size: 1.9rem;
+    padding-bottom: 14px;
+}
+#formularz
+{
+    width: 100%;
+    text-align: center;
+}
+/* CSS do formularza */
+#formularz1
+{
+    background:rgba(0, 0, 0, 0.7);
+    border: 4px solid #000000;
+    width: 50VW;
+    margin: 5vh 25vw 5vh 25vw;
+    padding-top: 20px;
+}
+.form-przy
+{
+    margin-bottom: 5vh;
+    background: transparent;
+    border: 2px solid #000000;
+    padding: 15px;
+    font-size: 1rem;
+    color: white;
+}
+.im-naz
+{
+    border: 3px solid #000000;
+}
+#formularz1 p
+{
+    margin:15px 0 0 0;
+    color: white;
+    font-size: 1.3rem;
+}
+#glowne-onas
+{
+    width: 100%;
+    background: #0041a1;
+}
+#glowne-onas p
+{
+    color: white;
+    font-size: 3vh;
+    margin: 0;
+    padding: 8vh 20%;
+    text-align: justify;
+}
+.portofolio
+{
+    width: 100%;    
+}
+.portfolio-zdj
+{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dbbb01;
+    border-top: 3px solid #dbbb01;
+}
+.portfolio-zdj img
+{
+    width: 50%;
+    height: auto;
+    margin: 10vh 25%;
+    opacity: 70%;
+}
+.portfolio-zdj img:hover
+{
+    opacity: 100%;
+    width: 60%;
+    height: auto;
+    margin: 10vh 20%;
+    animation: rozm 2s 1;
+}
+@keyframes rozm{
+    0% { width: 50%; margin:10vh 25%;}
+    100% {width: 60%; margin: 10vh 20% ;}
+}
+
+#oferta
+{
+    width: 100%;
+    border-top: 3px solid #0041a1;
+    border-bottom: 3px solid #0041a1;
+}
+.czesc
+{
+    width: 100%;
+    margin: 8vh 0;
+}
+.czesc h2
+{
+    text-align: center;
+    margin: 0;
+    font-size: 2.8rem;
+}.kontent
+{
+    margin:0;
+    padding: 5% 25% 5% 25%;
+    font-size: 3vh;
+    text-align: center;
+}
+ .zdjecia img{
+    width: 30%;
+    height: auto;
+    margin: 5vh 35%;
+}
